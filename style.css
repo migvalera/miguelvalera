@@ -1,0 +1,83 @@
+/* GENERALES */
+
+:root {
+  --maximaAnchura: 1400px;
+  --minimaAnchura: 320px;
+  --claro: #f9f9f9;
+  --grisclaro: #e9e9e9;
+  --grisoscuro: #696969;
+  --oscuro: #191919;
+  --fuente: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: var(--claro);
+  color: var(--oscuro);
+  font-family: var(--fuente);
+  font-size: 16px;
+}
+
+main {
+  position: relative;
+  min-width: var(--minimaAnchura);
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--oscuro);
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  opacity: 40%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  margin: 0;
+}
+
+/* PROVISIONAL */
+
+.miguel {
+  font-size: 4rem;
+  margin-top: 30vh;
+}
+
+.valera {
+  font-weight: 300;
+}
+
+.rrss {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 530px) {
+ .miguel {
+   font-size: 2rem;
+ }
+
+ .rrss {
+   margin-top: 10px;
+   font-size: 0.5rem;
+ }
+}
