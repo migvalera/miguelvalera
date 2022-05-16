@@ -7,7 +7,7 @@ _Proyecto de web personal utilizando HTML5, CSS3 y JavaScript para alguna funcio
 
 _Puedes navegar por la web de Miguel Valera desde cualquier dispositivo aquí:_
 
-* [Ver web de Miguel Valera](https://migvalera.github.io/miguelvalera/index.html)
+* [Ver web de Miguel Valera](https://migvalera.github.io/mv/index.html)
 
 
 ## Construido con 🛠️ 
